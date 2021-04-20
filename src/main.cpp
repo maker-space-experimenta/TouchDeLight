@@ -3,6 +3,9 @@
 #include "AudioOutputI2S.h"
 #include "AudioFileSourcePROGMEM.h"
 #include "sampleaac.h"
+#include "WiFi.h"
+#include "SPIFFS.h"
+
 
 AudioFileSourcePROGMEM *in;
 AudioGeneratorAAC *aac;
